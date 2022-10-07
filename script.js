@@ -1,22 +1,22 @@
 "use strict";
 
-// let incr = 10,
-//     decr = 10;
+//alert('Вы сейчас уйдете со страницы вы уверены?');
 
+// const result = confirm('Вы сейчас здесь находитесь?');
 
+// console.log(result);
 
-// console.log(++incr);
-// console.log(--decr);
+// const answer = +prompt('Вам сколько лет?', '33');
 
-// console.log(5%2);
-// console.log(2*4 === 8);s
+// console.log(answer+5);
 
+const answers = [];
 
-const isChecked = true,
-      isClose = false;
+answers[0] = prompt('Как ваше имя?');
+answers[1] = prompt('Как ваше фамилия?');
+answers[2] = prompt('Сколько вам лет?');
 
-console.log(isChecked && !isClose);
+document.write(answers);
 
-
-
-
+console.log(typeof(null));
+console.log(typeof(answers));
